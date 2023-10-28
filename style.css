@@ -50,25 +50,27 @@ button {
     align-items: left;
     margin-bottom: 20px;
 }
+.img{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: var(--cyan); */
+}
 
 .img img{
     width: 100%;
     border-radius: 10px;
+    height: 100%;
 }
+
+
 
 
 .hidden{
     display: none;
 }
-
-.img:hover img:first-child {
-    display: none
-}
-
-.img:hover img:last-child {
-    display: inline-block
-}
-
 .main h2{
     color: var(--white);
     padding: 20px 0;
